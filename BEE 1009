@@ -1,0 +1,7 @@
+#1009
+nome = str(input())
+fixo = float(input())
+variavel = float(input())*0.15
+x = fixo + variavel
+
+print('TOTAL = R$ %.2f' %x)
