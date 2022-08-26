@@ -1,0 +1,24 @@
+#1038
+
+a, b = map(int, input().split())
+
+if a == 1:
+    preco = float(4.00)
+    total = preco * b
+    print('Total: R$ %.2f' %total)
+elif a == 2:
+    preco = float(4.50)
+    total = preco * b
+    print('Total: R$ %.2f' %total)
+elif a == 3:
+    preco = float(5.00)
+    total = preco * b
+    print('Total: R$ %.2f' %total)
+elif a == 4:
+    preco = float(2.00)
+    total = preco * b
+    print('Total: R$ %.2f' %total)
+elif a == 5:
+    preco = float(1.50)
+    total = preco * b
+    print('Total: R$ %.2f' %total)
