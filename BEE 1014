@@ -1,0 +1,5 @@
+#1014
+distancia = int(input())
+combustivel = float(input())
+gasto = float(distancia/combustivel)
+print (round(gasto, 3),'km/l')
