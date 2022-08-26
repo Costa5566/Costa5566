@@ -1,0 +1,27 @@
+#1035
+[a, b, c, d] = input().split()
+
+a = int(a)
+b = int(b)
+c = int(c)
+d = int(d)
+
+maior1 = max(b, c)
+maior2 = max(d, a)
+
+somaAB = a + b
+somaCD = c + d
+
+soma_maior = max(somaAB, somaCD)
+
+c_positivo = min(c, 1)
+d_positivo = min(d, 1)
+
+a_par = min((a%2), 1)
+
+
+if maior1 == b and maior2 == d and soma_maior == somaCD and c_positivo == 1 and d_positivo == 1 and a_par == 0:
+ print('Valores aceitos')
+ 
+else: 
+ print('Valores nao aceitos')
