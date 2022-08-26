@@ -1,0 +1,9 @@
+#1017
+tempo = float(input()) #em horas
+velocidade = float(input()) #em km/h
+
+a = velocidade*tempo
+b = a/12
+
+
+print('{:.3f}' .format(b))
