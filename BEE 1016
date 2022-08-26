@@ -1,0 +1,4 @@
+#1016
+a = int(input())
+b = 2*a
+print(b, 'minutos')
